@@ -1,5 +1,8 @@
 import pandas as pd
+from flask import Flask, request, render_template
+
 from sklearn.ensemble import RandomForestClassifier
+
 from sklearn.model_selection import train_test_split  # Correct import
 import joblib
 
